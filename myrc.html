@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myrc.css">
+   <script src="myrc.js"></script>
+    <title>My recent works</title>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Sumit Chauhan</div>
+    <nav>
+        <ul>
+            <li><a href="port.html">Home</a></li>
+            <li><a href="abt.html">About Me</a></li>
+            <li><a href="gpi.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="section">
+      <h1>My recent <span>works</span></h1>
+      <div class="buttons">
+        <button class="active" onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('ui')">UI</button>
+        <button onclick="filterProjects('ux')">UX</button>
+        <button onclick="filterProjects('web')">Web Design</button>
+      </div>
+      <div class="gallery">
+        <div class="project-card" data-category="ui">
+          <img src="Course Website Landing Page Thumbnail 1.png" alt="UI Design Project">
+        </div>
+        <div class="project-card" data-category="ux">
+          <img src="Group 33.png" alt="UX Design Project"> 
+        </div>
+        <div class="project-card" data-category="web">
+          <img src="Group 1.png" alt="Web Design Project"> 
+        </div>
+      </div>
+    </div> 
+</body>
+</html>

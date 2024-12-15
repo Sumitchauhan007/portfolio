@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgba(34, 40, 49, 1);
+    color: #ffffff;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.leftsc{
+    flex: 1;
+}
+
+.leftsc h1{
+    font-size: 50px;
+    margin: 0 0 20px;
+    color: #ffffff;
+}
+
+.leftsc h1 span{
+    color: rgba(0, 173, 181, 1);
+
+}
+.illustration{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+}
+.rightsection{
+    flex: 1;
+    background-color: #2d2d2d;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.formgroup{
+    margin-bottom: 20px;
+
+}
+
+.formgroup label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #b5b5b5;
+}
+
+.formgroup input,
+.formgroup textarea{
+    width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      background-color: #1c1c1c;
+      color: #ffffff;
+      outline: none;
+}
+
+.formgroup textarea{
+    resize: none;
+    height: 150px;
+}
+
+.send-button {
+    background-color: #00e0d3;
+    color: #1c1c1c;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .send-button:hover {
+    background-color: #00c1b1;
+  }
+
+  .icons{
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.05;
+      z-index: -1;
+      background-image: url(keyboard.png);
+  }
+
+  .send-icon {
+    font-size: 16px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #00e0d3;
+}
